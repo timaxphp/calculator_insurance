@@ -1,0 +1,117 @@
+* {margin:0;padding:0}
+img {border:0}
+
+body, html {height:100%;}
+body {font:12px Tahoma,Arial,Verdana;color:#333}
+
+/* __________ BASIC __________ */
+
+div.right {float:right;}
+div.left {float:left;}
+div.clear {clear:both;}
+
+img.icheck {cursor:pointer;height:16px;padding:0;vertical-align:middle;width:16px;}
+
+.hint {
+    background:#fff;border:2px solid #ccc;
+    position:absolute;
+    font:11px Verdana;
+    max-width:300px;
+    padding:5px;
+    top:0;
+    width:auto;
+    z-index:100;
+	border-radius:5px;
+}
+
+/* form */
+div.sel {width:275px}
+select.sel {border:0;font-size:13px;margin:3px;width:98%}
+div.sel2 {font-size:13px;border-radius:5px;border:1px solid #048138;background:#fff;float:left;margin:5px 0 0 5px;text-align:left;width:107px;}
+select.sel2 {border:0;margin:3px;width:96%}
+
+label {cursor:pointer}
+span.title {color:#fff;font-size:14px;}
+
+input.inp_text, textarea.inp_text {
+	border:1px solid #048138;
+	background:#fff;
+    color:#000;
+	border-radius:5px;
+	padding:2px;
+    vertical-align:middle;
+}
+
+.main_step {overflow:hidden;}
+.mb10 {font-weight:700;color:#027531}
+.image {vertical-align:middle}
+
+/* messages */
+.success {color:#fff;font-size:14px}
+.error {color:#f00;font-size:14px}
+
+/* buttons */
+a.btn {color:#000;vertical-align:middle;background:url(img/bar/btn.png);width:118px;height:30px;font-size:17px;line-height:30px;text-decoration:none;display:inline-block;text-align:center; white-space:nowrap}
+
+/* __________ GENERAL __________ */
+
+#wrapper {padding:20px;}
+
+#calc {background:url(img/bar/bg.png);position:relative;width:591px;height:481px;color:#fff;padding:4px 10px 4px 6px}
+#calc  table {border:0;border-collapse:collapse}
+#calc td {vertical-align:top}
+
+#calc_head {height:72px; position:relative}
+#calc_step_title {font-size:18px;position:absolute;right:17px;top:5px;height:65px;line-height:65px;padding:0 0 0 17px}
+#calc_step_num {font-size:30px;left:8px;top:6px;position:absolute;width:60px;height:60px;text-align:center;line-height:60px}
+#calc_step_image {background:url(img/logo.png) no-repeat 0 center;width:200px;height:61px;left:78px;position:absolute;top:7px;}
+
+#calc_body {padding:17px;}
+
+td#data_choose {background:#fff;border:2px solid #ccc;float:left;font-size:14px;width:200px;padding:10px;border-radius:5px}
+td#data_choose h3 {color:#027531;text-transform:uppercase;font-weight:400;font-size:16px !important;text-align:center;margin:0 0 15px}
+td#data_choose div.num {margin:0 20px 15px;}
+td#data_choose div.num a {color:#5E004C;}
+td#data_choose div.num span {color:#000;}
+
+td#data_choose, td#other_data {height:345px !important;overflow:auto;}
+td#other_data {padding:0 0 0 20px;}
+
+#calc_data {font-size:17px}
+#calc_data input {font-size:18px;margin-top:5px;}
+
+table.choose {width:100%;color:#000;}
+table.choose td {padding:0 0 10px}
+table.choose td.s1 {text-align:right;width:20px;}
+table.choose td.s2 {padding-left:10px;width:220px;}
+table.choose td.s2 div {}
+table.choose td.s1_1 {padding:0 0 6px;text-align:right;width:25px;}
+table.choose td.s2_1 {color:#5E004C;padding:0 0 6px 10px;text-align:left;}
+
+.linkstable ul {list-style-type:none;margin:0;padding:0;float:left;width:50%;}
+.linkstable ul li.current {font-weight:bold;}
+.linkstable ul li.current a {}
+.linkstable a {color:#313030;}
+
+div.value {margin-bottom:10px;height:24px;border:1px solid #048138;background:#fff;border-radius:5px;}
+div.new_value {font-size:14px;margin-bottom:15px;}
+div.buts {position:absolute;width:290px;bottom:28px;right:28px}
+div.button {font-size:14px;}
+
+#step1 {margin:0 0 -16px}
+	#step1 .value {width:290px}
+#step2 {}
+#step3 {}
+#step4 {}
+#step5 {}
+#step5 input {margin:0 !important}
+
+#contacts {font-size:13px}
+
+/* drivers */
+#all_drivers {}
+#all_drivers img {vertical-align:middle}
+a.add_driver {margin:0 0 0 5px;}
+a.del_driver {margin:0 0 0 3px;}
+div.driv {margin:0 0 5px;}
+select.age,select.stage {width:100px;margin:0 0 5px}
